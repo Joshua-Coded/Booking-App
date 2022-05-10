@@ -5,3 +5,8 @@
     align-items: center;
     gap: 30px;
 }
+
+.homeTitle {
+    font-size: 20px;
+    width: 1024px;
+}

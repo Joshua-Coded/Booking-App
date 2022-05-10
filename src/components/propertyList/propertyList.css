@@ -1,29 +1,34 @@
-.featured {
+.pList {
     width: 100%;
     max-width: 1024px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    z-index: 1;
+
+
 }
 
-.featuredItem {
-    position: relative;
-    color: #fff;
+.pListItem {
+    flex: 1;
     border-radius: 10px;
     overflow: hidden;
-    height: 250px;
+    cursor: pointer;
 }
 
-.featuredImg {
+.pListImg {
     width: 100%;
+    height: 150px;
     object-fit: cover;
 
+}
+
+.pListTitle>h1 {
+    font-size: 18px;
 
 }
 
-.featuredTitles {
-    position: absolute;
-    bottom: 20px;
+.pListTitle>h2 {
+    font-size: 14px;
+    font-weight: 300;
 
 }
