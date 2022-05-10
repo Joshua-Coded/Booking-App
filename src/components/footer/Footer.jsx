@@ -56,7 +56,7 @@ export default function Footer() {
 
                 </ul>
             </div>
-            <div className='fText'>Copyright @ 2022  Josh-Booking</div>
+            <div className='fText'>Copyright &copy; 2022  Josh-Booking</div>
         </div>
     )
 }
