@@ -19,6 +19,7 @@
     border-radius: 10px;
     position: sticky;
     top: 10px;
+    height: max-content;
 }
 
 
@@ -77,7 +78,15 @@
 
 }
 
-
+.listSearch>button {
+    padding: 10px;
+    background-color: #0071c2;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+}
 
 
 
